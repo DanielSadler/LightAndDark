@@ -1,0 +1,17 @@
+{
+  "name": "contic-starter",
+  "version": "1.0.0",
+  "description": "A starter setup github for a full stack application",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "workspaces": ["api", "web"],
+  "author": "Adam Lyth",
+  "license": "MIT",
+  "private": true
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput should match a snapshot 1`] = `
+<View>
+  <View />
+  <TextInput
+    onBlur={[Function]}
+    onFocus={[Function]}
+    style={
+      [
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "borderBottomColor": "#d1d5db",
+          "borderLeftColor": "#d1d5db",
+          "borderRightColor": "#d1d5db",
+          "borderTopColor": "#d1d5db",
+        },
+        {
+          "paddingLeft": 12,
+          "paddingRight": 12,
+        },
+        {
+          "paddingBottom": 8,
+          "paddingTop": 8,
+        },
+        {
+          "color": "#000",
+        },
+        {
+          "shadowColor": "rgba(0, 0, 0, 0.1)",
+          "shadowOffset": {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 2,
+        },
+        {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+      ]
+    }
+  />
+</View>
+`;

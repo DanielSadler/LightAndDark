@@ -1,0 +1,24 @@
+{
+  "extends": ["airbnb-base", "eslint:recommended", "next/core-web-vitals", "plugin:prettier/recommended"],
+  "env": {
+    "jest": true
+  },
+  "ignorePatterns": ["src/graphql/generated.ts"],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.stories.tsx"],
+      "rules": {
+        "import/no-default-export": "off"
+      }
+    }
+  ],
+  "globals": {
+    "cy": true
+  }
+}

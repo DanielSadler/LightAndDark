@@ -1,0 +1,36 @@
+{
+    "extends": [
+        "airbnb-base",
+        "eslint:recommended",
+        "universe",
+        "universe/shared/typescript-analysis"
+    ],
+    "ignorePatterns": [
+        "src/graphql/generated.ts"
+    ],
+    "rules": {
+        "import/prefer-default-export": "off",
+        "import/extensions": "off",
+        "import/no-extraneous-dependencies": "off",
+        "import/no-named-as-default": "off",
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": ["error"],
+        "import/no-unresolved": "warn",
+        "global-require": "warn"
+    },
+    "env": {
+        "jest": true
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.ts",
+                "*.tsx",
+                "*.d.ts"
+            ],
+            "parserOptions": {
+                "project": "tsconfig.json"
+            }
+        }
+    ]
+}
